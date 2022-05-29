@@ -1,7 +1,7 @@
 :root {
   --primary-color: #F0A83E;
   --secondary-color: #3C2313;
-  --main-bg-color: #E5E5E5;
+  --main-bg-color: #fff;
 }
 
 * {
@@ -130,4 +130,50 @@ nav ul img {
   padding: 0.7rem 1.5rem;
   border-radius: 5px;
   text-transform: uppercase;
+}
+
+/* FEATURED PRODUCTS */
+#featured-products {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--main-bg-color);
+}
+
+#featured-products h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#featured-products ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#featured-products ul li {
+  padding: 0.8rem;
+}
+
+#cards-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  margin: 50px 10px 80px 10px;
+  background-color: #FBFAF6;
+}
+
+.product-card h4 {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 2px;;
+}
+
+.product-card p {
+  color: #F0A83E;
+  font-size: 15px;
+  font-weight: 500;
 }
