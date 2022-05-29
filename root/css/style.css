@@ -218,6 +218,7 @@ nav ul img {
   border: none;
   width: 110px;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-primary {
