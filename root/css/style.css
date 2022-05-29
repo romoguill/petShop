@@ -177,3 +177,50 @@ nav ul img {
   font-size: 15px;
   font-weight: 500;
 }
+
+/* CONTACT */
+#contact h3 {
+  font-weight: 700px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 2rem 0;
+}
+
+#contact form input {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  padding: .8rem;
+  width: 340px;
+  font-size: 9px;
+  font-weight: 400px;
+  margin: 5px;
+  color: white;
+}
+
+#contact form input::placeholder {
+  color: #fff;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: none;
+  width: 110px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: #8A8787;
+}
