@@ -193,14 +193,18 @@ nav ul img {
   padding: 1rem 0 2rem 0;
 }
 
-#contact form input {
-  background-color: var(--secondary-color);
+.input {
   border-radius: 15px;
-  padding: .8rem;
+  padding: 1rem;
   width: 340px;
   font-size: 9px;
   font-weight: 400px;
   margin: 5px;
+  border: none;
+}
+
+.input-contact {
+  background-color: var(--secondary-color);
   color: white;
 }
 
@@ -214,13 +218,50 @@ nav ul img {
   border: none;
   width: 110px;
   color: #fff;
-  margin-top: 40px;
 }
 
 .btn-primary {
+  margin-top: 40px;
   background-color: var(--primary-color);
 }
 
 .btn-secondary {
+  margin-top: 40px;
   background-color: #8A8787;
+}
+
+/*            FOOTER              */
+/* SUBSCRIPTION */
+#subscription {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.subscription-text {
+  display: flex;
+  align-items: center;
+}
+
+.subscription-text h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+#subscription form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+#subscription form button {
+  background-color: var(--secondary-color);
+  font-size: 9px;
+  padding: 0.8rem 0;
+
 }
