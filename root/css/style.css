@@ -44,6 +44,11 @@ body {
   margin: 0 10px;
 }
 
+#upper-banner ul img {
+  position: relative;
+  top: 2px;
+}
+
 /* NAV */
 nav {
   display: flex;
@@ -76,7 +81,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
+  /* list-style-image: url('../img/pawprint-2.svg'); */
   color: #fff;
 }
 
@@ -84,12 +89,14 @@ nav ul li {
   display: flex;
   align-items: center;
   padding: 10px;
+  font-size: 13px;
 }
 
 nav ul img {
   color: #fff;
   height: 15px;
   width: 15px;
+  padding-right: 3px;
 }
 
 /*            MAIN              */
@@ -159,6 +166,7 @@ nav ul img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .product-card {
@@ -240,6 +248,7 @@ nav ul img {
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  flex-wrap: wrap;
 }
 
 .subscription-text {
@@ -320,4 +329,10 @@ nav ul img {
   text-align: center;
   font-size: 10px;
   padding: .2rem;
+}
+
+
+/*                     RESPONSIVE                       */
+@media screen and (max-width: 950px) {
+
 }
