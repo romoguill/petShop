@@ -99,6 +99,10 @@ nav ul img {
   padding-right: 3px;
 }
 
+nav .menu-icon {
+  display: none;
+}
+
 /*            MAIN              */
 
 /* HERO */
@@ -247,7 +251,6 @@ nav ul img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
   flex-wrap: wrap;
 }
 
@@ -255,6 +258,7 @@ nav ul img {
   display: flex;
   align-items: center;
   margin-left: 25px;
+  padding: 0.5rem;
 }
 
 .subscription-text h5 {
@@ -334,5 +338,46 @@ nav ul img {
 
 /*                     RESPONSIVE                       */
 @media screen and (max-width: 950px) {
-
+/*            FOOTER              */
+/* SUBSCRIPTION */
+  #subscription {
+    justify-content: center;
+  }
 }
+
+@media screen and (max-width: 660px) {
+  /* HEADER */
+  #upper-banner {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav .menu-icon {
+    display: block;
+    margin-right: 3rem;
+  }
+
+  nav .menu-icon img {
+    display: block;
+  }
+
+  #contact-information {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact-information .icon-secondary {
+    order: -1;
+    margin-top: 1rem;
+  }
+
+  #contact-information .icon-secondary h2{
+    font-size: 15px;
+  }
+}
+
